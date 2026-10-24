@@ -15,6 +15,8 @@
 
 ## Overview
 
+This project uses a 20,765-row dataset. My separate [NYC Airbnb cleaning and modeling project](https://github.com/Talhax55z/airbnb-nyc-eda-modeling) uses a different, 102,599-row dataset.
+
 This project performs end-to-end EDA on New York Airbnb 2024 data. The goal is to go beyond surface-level charts and extract **actionable insights** for both guests and hosts — understanding what drives prices, how availability correlates with reviews, and where the real value listings are hiding.
 
 ---
@@ -124,8 +126,8 @@ Python 3.10+
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Talhax55z/Air-BNB-1.git
+cd Air-BNB-1
 ```
 
 **2. Install dependencies**
@@ -140,7 +142,7 @@ jupyter notebook day23_note.ipynb
 
 **4. Add the dataset**
 
-Download `new_york_listings_2024.csv` from [Inside Airbnb](http://insideairbnb.com/get-the-data/) and place it in the root of the project folder.
+The repository includes `datasets.csv`, which is the filename loaded by the notebook.
 
 ---
 
